@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64882" started-at="2018-03-06T10:33:54Z" finished-at="2018-03-06T10:34:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64882" started-at="2018-03-06T10:33:54Z" finished-at="2018-03-06T10:34:59Z">
+      <class name="com.mocne.test2audit">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mocne.test2audit@d2cc05a]" name="setUp" is-config="true" duration-ms="7643" started-at="2018-03-06T18:33:54Z" finished-at="2018-03-06T18:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogIn()[pri:1, instance:com.mocne.test2audit@d2cc05a]" name="testLogIn" duration-ms="55943" started-at="2018-03-06T18:34:02Z" finished-at="2018-03-06T18:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mocne.test2audit@d2cc05a]" name="tearDown" is-config="true" duration-ms="1275" started-at="2018-03-06T18:34:58Z" finished-at="2018-03-06T18:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mocne.test2audit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

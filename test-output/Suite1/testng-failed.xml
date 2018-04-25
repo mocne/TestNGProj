@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="URL" value="http://testng.org/"/>
+  <test name="Test1(failed)">
+    <parameter name="URL" value="http://testng.org/"/>
+    <classes>
+      <class name="com.mocne.myTestNGDemo">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.mocne.myTestNGDemo -->
+      <class name="com.mocne.demo2">
+        <methods>
+          <include name="testBbb"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mocne.demo2 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
