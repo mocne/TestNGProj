@@ -24,6 +24,7 @@ public class demo2 {
 	chromeOptions.addArguments("--start-maximized", "disable-infobars");
 	driver = new ChromeDriver(chromeOptions);
     baseUrl = "http://cnaidai.com/";
+    baseUrl = "http://cnaidai.com/";
     
   }
 
